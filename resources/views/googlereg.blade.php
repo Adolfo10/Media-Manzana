@@ -145,7 +145,7 @@ $(document).ready(function () {
             #button 
         {
         font: 700 1em Tahoma, Arial, Verdana, sans-serif;
-        color: #59B0E5; background-color: #fff;              
+        color: #59B0E5; background-color: #fff;        
         width: 300px;
         height: 50px;
         margin-bottom: 1000px;  
@@ -167,7 +167,7 @@ $(document).ready(function () {
         }
         </style>
     
-    <title>Media Manzana</title>
+    <title>Media Manzana2</title>
     
 </head>
 <body>
