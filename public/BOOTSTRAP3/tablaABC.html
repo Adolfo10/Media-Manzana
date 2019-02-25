@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+<meta name="keywords" content="Practica1, html5">
+<meta name="description" content="Página con CSS"> 
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" >
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<style type="text/css">
+	body{
+		padding-top: 30px; 
+	}
+	#shadow{
+    max-width: 350px;
+    border-radius: 15%;
+}
+</style>
+	<title>tablas ABC</title>
+</head>
+<body>
+	<a href="../BOOTSTRAP4.1.1-dist/HTML5/Home.html"><button type="button">Regresar</button></a>
+<div class="container">
+	<div class="panel panel-success">
+		<div class="panel-heading">
+			<h2 class="panel-title">Lista de clientes</h2>
+		</div>
+		<div class="panel-body">
+			<!--class="table" para crear la tabla. class:"table table-hover"para que la tabla cambie con el cursor-->
+			<table class="table table-hover">
+				<thead>
+					<tr>
+						<th>Id persona</th>
+						<th>Nombre</th>
+						<th>APaterno</th>
+						<th>AMaterno</th>
+						<th>sexo</th>
+						<th>edad</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>Rodrigo</td>
+						<td>Lopez</td>
+						<td>Perez</td>
+						<td>Masculino</td>
+						<td>32</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>Raul</td>
+						<td>Flores</td>
+						<td>Castillo</td>
+						<td>Masculino</td>
+						<td>35</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>Ana</td>
+						<td>Lopez</td>
+						<td>Perez</td>
+						<td>Femenino</td>
+						<td>31</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>Karla</td>
+						<td>Estrada</td>
+						<td>Montes</td>
+						<td>Femenino</td>
+						<td>24</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>Samantha</td>
+						<td>Soto</td>
+						<td>Ontiveros</td>
+						<td>Femenino</td>
+						<td>18</td>
+					</tr>
+				</tbody>
+			</table>
+			<button class="btn btn-success btn-lg" role="presentation">
+				<a href="#tabla" data-toggle="modal" data-target="#nuevo">Nuevo Cliente</a>
+			</button>
+			<button class="btn btn-warning btn-lg">Editar Cliente</button>
+			<button class="btn btn-danger btn-lg">Eliminar Cliente</button>
+
+			<!-- aui empiezo con el formulario de los botones-->
+			<div class="modal fade" id="nuevo">
+                <div class="col-md-offset-3 col-md-6">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">
+                                X
+                            </button>
+                            <h4 class="modal-title">Registrar</h4>
+                        </div>
+                        <div class="modal-body">
+                            
+                                
+                                <form class="login">
+                                    <div class="form-group">
+                                    	id de la persona:
+                                        <input type="text" class="form-control" placeholder="ID" required autofocus>
+                                    </div>
+                                    <div class="form-group">
+                                    	Nombre de la persona:
+                                        <input type="password" class="form-control" placeholder="Nombres" required>
+                                    </div>
+                                    <div class="form-group">
+                                    	Apellido Paterno:
+                                    	<input type="text" class="form-control" placeholder="apellido">
+                                    </div>
+                                    <div class="form-group">
+                                    	Apellido Materno:
+                                    	<input type="text" class="form-control" placeholder="apellido">
+                                    </div>
+                                    Sexo:
+                                    <select name="sexo">
+                                    	<option value="masculino">Masculino</option>
+                                    	<option value="femenino">Femenino</option>
+                                    </select>
+                                    <br><br>
+                                    <!--aqui va un selector para definir si el sexo es masculino o femenino-->
+                                    <div class="form-group">
+                                    	Edad:
+                                    	<input type="text" class="form-control" placeholder="edad">
+                                    </div>
+                                    <button type="submit" class="btn btn-lg btn-primary">
+                                        Iniciar sesion
+                                    </button>
+                                </form>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<!--aqui terminaria-->
+		</div>
+	</div>
+</div>
+</body>
+</html>
