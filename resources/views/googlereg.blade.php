@@ -167,7 +167,7 @@ $(document).ready(function () {
         }
         </style>
     
-    <title>Media Manzana2</title>
+    <title>Media Manzana</title>
     
 </head>
 <body>

@@ -48,8 +48,7 @@
                 margin-left: 1000px;
             } 
             body{
-                background-image:
-                url('img/pareja princial.jpg');
+                background-color: #fff;
                 background-position: top;
                 background-repeat: no-repeat;
                 background-size: cover;
@@ -95,10 +94,10 @@
         font: 700 1em Tahoma, Arial, Verdana, sans-serif;
         color: #59B0E5; background-color: #fff;
         border: 1px solid #0074a5;
-        border-top: 1px solid #004370;
+        
         border-left: 1px solid #004370;
-        width: 400px;
-        height: 70px;
+        width: 420px;
+        height: 40px;
         margin-bottom: -15px;            
         margin-top: 20px; 
         margin-left: 1067px;
@@ -110,14 +109,50 @@
         {
         width: auto; /* ie */
         overflow: visible; /* ie */
-        padding: 3px 8px 2px 6px; /* ie */
+        padding: 1px 1px 1px 1px; /* ie */
         }   
 
         #button[type] 
         {
-        padding: 2px 8px 4px 6px; /* firefox */
+        padding: 1px 1px 1px 1px; /* firefox */
         }
 
+        #div{
+            background-color:#C74765;
+            margin-top: -310px;                   
+            padding: 20px;
+
+        }
+        #manzana{
+            margin-left: 490px;
+
+        }
+        #imgper{
+            margin-left: -750px;
+            width: 120px;
+            height: 120px;
+            border-radius:60px;
+        }
+        #diviz{
+            border: 2px solid #000000;
+            background-color:#fff;
+            width: 150px;
+            height: 720px;
+        }
+        #divder{
+            margin-top: -720px;
+            border: 2px solid #000000;
+            background-color:#fff;
+            width: 1200px;
+            height: 720px;
+            margin-left: 148px;
+        }
+        #img{
+            margin-left: 160px;
+            width: 120px;
+            height: 120px;
+            border-radius:60px;
+        }
         </style>    
     <title>Media Manzana</title>
     
@@ -157,17 +192,26 @@
       </div>
     </div>
   </div>
+  <img src="img/RyanNewman.PNG" alt="x" id="img"/>
 -->
                               
 
-<div class="alert alert-success animated shake" role="alert" id="success-alert">
-<strong data-caption-animate="fadeInLeftSmall" >Te Registraste Correctamente con Google</strong>  
+<div id="div">
+<form action="{{ url("/inicio") }}" method="GET">
+<img src="img/mediamanzana.PNG" alt="x" id="manzana"/>
+<img src="img/perifl.PNG" alt="x" id="imgper"/>
+</form>
 </div>         
 
-<form action="{{ url("/inicio") }}" method="GET">
-<button type="submit" class="btn" id="button"><img src="img/btngoogle - copia.PNG" alt="x" />   Continúa con Google</button>
-</form>
 
+<div id="diviz">
+<img src="img/perifl.PNG" alt="x" id="imgper"/>
+</div>
+
+
+<div id="divder">
+<img src="img/RyanNewman.PNG" alt="x" id="img"/>
+</div>
 
 </body>
 </html>

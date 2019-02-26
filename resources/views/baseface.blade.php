@@ -163,7 +163,7 @@
 <strong data-caption-animate="fadeInLeftSmall" >Te Registraste Correctamente con Facebook</strong>  
 </div>                              
 
-<form action="{{ url("/regface") }}" method="GET">
+<form action="{{ url("/inicio") }}" method="GET">
 <button type="submit" class="btn" id="buttonface"><img src="img/face.PNG" alt="x" />Continúa con Facebook</button>
 </form>
 

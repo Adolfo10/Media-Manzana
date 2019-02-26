@@ -23,6 +23,9 @@ Route::get('/regface', 'Controller@showfacebase');
 
 Route::get('/google', 'Controller@showgooglereg');
 Route::get('/regoogle', 'Controller@showregoogle');
+Route::get('/biengoogle', 'Controller@showbasegoogle');
+
+Route::get('/inicio', 'Controller@showinicio');
 
 
 /*

@@ -182,7 +182,16 @@ public function showprod()
         return view('googlereg');
     }
 
+    public function showbasegoogle()
+    {
+        return view('basegoogle');
+    }
 
+    public function showinicio()
+    {
+        return view('inicio');
+    }
+    
 
 
 
