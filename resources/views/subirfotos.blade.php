@@ -32,6 +32,12 @@
               height: 50px;
                 
             }   
+            #conf{
+            margin-left: 1250px;
+            width: 25px;
+            height: 50px;
+            border-radius:60px;
+        }
       #parr{
                 color: #fff;
                 margin-bottom: -15px;             
@@ -134,48 +140,74 @@
             height: 120px;
             border-radius:60px;
         }
-        #conf{
-            margin-left: 1250px;
-            width: 25px;
-            height: 50px;
-            border-radius:60px;
-        }
         #diviz{
             border: 0px solid #000000;            
             width: 250px;
             height: 720px;
         }
-        #divder{            
+        #divder{
+            
             margin-top: -720px;
             border: 2px solid #000000;
             background-color:#fff;
             width: 1275px;
             height: 920px;
             margin-left: 148px;
+            padding:20px;
         }
         #img1{
             margin-top: 20px;
             margin-left: 55px;
-            width: 392px;
-            height: 340px;
+            width: 200px;
+            height: 200px;
         }
         #img2{
-            margin-top: -370px;
-            margin-left: 774px;
-            width: 392px;
-            height: 340px;
+            margin-top: 20px;
+            margin-left: 55px;
+            width: 200px;
+            height: 200px;
         }
         #img3{
-            margin-top: 70px;
-            margin-left: 774px;
-            width: 392px;
-            height: 340px;
+            margin-top: 20px;
+            margin-left: 55px;
+            width: 200px;
+            height: 200px;
         }
         #img4{
-            margin-top: -370px;
-            margin-left: 40px;
-            width: 392px;
-            height: 340px;
+            margin-top: 20px;
+            margin-left: 55px;
+            width: 200px;
+            height: 200px;
+        }
+        #img5{
+            margin-top: 20px;
+            margin-left: 55px;
+            width: 200px;
+            height: 200px;
+        }
+        #img6{
+            margin-top: 20px;
+            margin-left: 55px;
+            width: 200px;
+            height: 200px;
+        }
+        #img7{
+            margin-top: 20px;
+            margin-left: 55px;
+            width: 200px;
+            height: 200px;
+        }
+        #img8{
+            margin-top: 20px;
+            margin-left: 55px;
+            width: 200px;
+            height: 200px;
+        }
+        #img9{
+            margin-top: 20px;
+            margin-left: 55px;
+            width: 200px;
+            height: 200px;
         }
         #imgmedia{            
             margin-top: 30px;  
@@ -241,6 +273,7 @@
 <img src="img/perifl.PNG" alt="x" id="imgper"/>
 <img src="img/conf.PNG" alt="x" id="conf"/>
 
+
 </div>         
 
 
@@ -258,10 +291,14 @@
 
 
 <div id="divder">
-<img src="img/RyanNewman.PNG" alt="x" id="img1"/>
+<img src="img/fotomedia.PNG" alt="x" id="img1"/>
 <img src="img/RyanNewman.PNG" alt="x" id="img2"/>
 <img src="img/RyanNewman.PNG" alt="x" id="img3"/>
 <img src="img/RyanNewman.PNG" alt="x" id="img4"/>
+<img src="img/RyanNewman.PNG" alt="x" id="img5"/>
+<img src="img/RyanNewman.PNG" alt="x" id="img6"/>
+<img src="img/RyanNewman.PNG" alt="x" id="img7"/>
+<img src="img/RyanNewman.PNG" alt="x" id="img8"/>
 </div>
 
 </body>

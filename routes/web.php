@@ -26,6 +26,13 @@ Route::get('/regoogle', 'Controller@showregoogle');
 Route::get('/biengoogle', 'Controller@showbasegoogle');
 
 Route::get('/inicio', 'Controller@showinicio');
+Route::get('/subirfoto', 'Controller@showsubirfoto');
+
+Route::get('/mensages', 'Controller@showmessinicio');
+Route::get('/convuno', 'Controller@showconvuno');
+Route::get('/convdos', 'Controller@showconvdos');
+
+Route::get('/perfil', 'Controller@showperfil');
 
 
 /*

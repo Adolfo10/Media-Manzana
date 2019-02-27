@@ -191,8 +191,32 @@ public function showprod()
     {
         return view('inicio');
     }
-    
 
+    public function showsubirfoto()
+    {
+        return view('subirfotos');
+    }
+
+    public function showmessinicio()
+    {
+        return view('mensagesinicio');
+    }
+
+    public function showconvuno()
+    {
+        return view('convuno');
+    }
+
+    public function showconvdos()
+    {
+        return view('convdos');
+    }  
+
+    public function showperfil()
+    {
+        return view('perfil');
+    }  
+    
 
 
 

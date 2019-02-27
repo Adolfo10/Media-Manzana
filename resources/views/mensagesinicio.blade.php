@@ -37,6 +37,13 @@
                 margin-bottom: -15px;             
                 margin-left: 1000px;
             } 
+            #conf{
+            margin-left: 1250px;
+            width: 25px;
+            height: 50px;
+            border-radius:60px;
+        }
+
         #btnall{
                 margin-bottom: -15px;             
                 margin-left: 1000px;
@@ -134,48 +141,84 @@
             height: 120px;
             border-radius:60px;
         }
-        #conf{
-            margin-left: 1250px;
-            width: 25px;
-            height: 50px;
-            border-radius:60px;
-        }
         #diviz{
-            border: 0px solid #000000;            
-            width: 250px;
-            height: 720px;
+            
+            border: 2px solid #000000;            
+            width: 150px;
+            height: 600px;
         }
-        #divder{            
-            margin-top: -720px;
+        #divderimg{            
+            margin-top: -560px;
             border: 2px solid #000000;
-            background-color:#fff;
-            width: 1275px;
-            height: 920px;
-            margin-left: 148px;
+            background-color:#C74765;
+            width: 250px;
+            height: 540px;
+            margin-left: 248px;
+            padding:20px;
+        }
+        #divdermess{
+            margin-top: -540px;
+            border: 2px solid #000000;
+            background-image:
+                url('img/fondomess.PNG');
+            width: 920px;
+            height: 540px;
+            margin-left: 497px;
+            padding:20px;
         }
         #img1{
             margin-top: 20px;
             margin-left: 55px;
-            width: 392px;
-            height: 340px;
+            width: 100px;
+            height: 100px;
         }
         #img2{
-            margin-top: -370px;
-            margin-left: 774px;
-            width: 392px;
-            height: 340px;
+            margin-top: 20px;
+            margin-left: 55px;
+            width: 100px;
+            height: 100px;
         }
         #img3{
-            margin-top: 70px;
-            margin-left: 774px;
-            width: 392px;
-            height: 340px;
+            margin-top: 20px;
+            margin-left: 55px;
+            width: 200px;
+            height: 200px;
         }
         #img4{
-            margin-top: -370px;
-            margin-left: 40px;
-            width: 392px;
-            height: 340px;
+            margin-top: 20px;
+            margin-left: 55px;
+            width: 200px;
+            height: 200px;
+        }
+        #img5{
+            margin-top: 20px;
+            margin-left: 55px;
+            width: 200px;
+            height: 200px;
+        }
+        #img6{
+            margin-top: 20px;
+            margin-left: 55px;
+            width: 200px;
+            height: 200px;
+        }
+        #img7{
+            margin-top: 20px;
+            margin-left: 55px;
+            width: 200px;
+            height: 200px;
+        }
+        #img8{
+            margin-top: 20px;
+            margin-left: 55px;
+            width: 200px;
+            height: 200px;
+        }
+        #img9{
+            margin-top: 20px;
+            margin-left: 55px;
+            width: 200px;
+            height: 200px;
         }
         #imgmedia{            
             margin-top: 30px;  
@@ -234,12 +277,14 @@
 
 <div id="div">
 
+
 <a href="/inicio">
 <img src="img/mediamanzana.PNG" alt="x" id="manzana"/>
 </a>
 
 <img src="img/perifl.PNG" alt="x" id="imgper"/>
 <img src="img/conf.PNG" alt="x" id="conf"/>
+
 
 </div>         
 
@@ -257,11 +302,19 @@
 </div>
 
 
-<div id="divder">
+<div id="divderimg">
+
+<a href="/convuno">
 <img src="img/RyanNewman.PNG" alt="x" id="img1"/>
+</a>
+
+<a href="/convdos">
 <img src="img/RyanNewman.PNG" alt="x" id="img2"/>
-<img src="img/RyanNewman.PNG" alt="x" id="img3"/>
-<img src="img/RyanNewman.PNG" alt="x" id="img4"/>
+</div></a>
+
+
+<div id="divdermess">
+
 </div>
 
 </body>

@@ -42,11 +42,22 @@
                 margin-left: 1000px;
             } 
              #btnred{
-                width: 365px;
+              background-color:#C74765;
+                width: 265px;
                 height: 70px;
-                margin-bottom: -15px;             
-                margin-left: 1000px;
+                margin-top: 30px;       
+                margin-left: 30px;
             } 
+            #btnredd{
+              background-color:#C74765;
+                width: 265px;
+                height: 70px;
+                margin-top: 30px;       
+                margin-left: 30px;
+            } 
+            
+
+
             body{
                 background-color: #fff;
                 background-position: top;
@@ -134,48 +145,119 @@
             height: 120px;
             border-radius:60px;
         }
+        #convuno{          
+            margin-top: 240px;
+            width: 300px;
+            height: 50px;
+            border-radius:10px;
+        }
+        #convdos{
+          background-color:#C74765;
+            margin-top: 40px;
+            margin-left: 580px;
+            width: 300px;
+            height: 50px;
+            border-radius:10px;
+        }
+        #mandar{          
+            margin-top: 56px;
+            margin-left: -20px;
+            width: 915px;
+            height: 80px;
+            
+        }
+        #diviz{
+            
+            border: 2px solid #000000;            
+            width: 150px;
+            height: 600px;
+        }
+        #divderimg{            
+            margin-top: -580px;
+            border: 2px solid #000000;
+            
+            width: 1100px;
+            height: 580px;
+            margin-left: 250px;
+            padding:20px;
+        }
         #conf{
             margin-left: 1250px;
             width: 25px;
             height: 50px;
             border-radius:60px;
         }
-        #diviz{
-            border: 0px solid #000000;            
-            width: 250px;
-            height: 720px;
-        }
-        #divder{            
-            margin-top: -720px;
+        #divimguno{
+            margin-top: 20px;
             border: 2px solid #000000;
-            background-color:#fff;
-            width: 1275px;
-            height: 920px;
-            margin-left: 148px;
+            background-color:#B83453;
+            width: 250px;
+            height: 140px;
+            margin-left: -20px;
+            
+        }
+        #divdermess{
+            margin-top: -580px;
+            border: 2px solid #000000;
+            
+            width: 440px;
+            height: 580px;
+            margin-left: 910px;
+            padding:20px;
         }
         #img1{
-            margin-top: 20px;
-            margin-left: 55px;
-            width: 392px;
-            height: 340px;
+            margin-top: 10px;
+            margin-left: 8px;
+            width: 600px;
+            height: 400px;
         }
         #img2{
-            margin-top: -370px;
-            margin-left: 774px;
-            width: 392px;
-            height: 340px;
+            margin-top: 20px;
+            margin-left: 55px;
+            width: 100px;
+            height: 100px;
         }
         #img3{
-            margin-top: 70px;
-            margin-left: 774px;
-            width: 392px;
-            height: 340px;
+            margin-top: 20px;
+            margin-left: 55px;
+            width: 200px;
+            height: 200px;
         }
         #img4{
-            margin-top: -370px;
-            margin-left: 40px;
-            width: 392px;
-            height: 340px;
+            margin-top: 20px;
+            margin-left: 55px;
+            width: 200px;
+            height: 200px;
+        }
+        #img5{
+            margin-top: 20px;
+            margin-left: 55px;
+            width: 200px;
+            height: 200px;
+        }
+        #img6{
+            margin-top: 20px;
+            margin-left: 55px;
+            width: 200px;
+            height: 200px;
+        }
+        #img7{
+            margin-top: 20px;
+            margin-left: 55px;
+            width: 200px;
+            height: 200px;
+        }
+        #img8{
+            margin-top: 20px;
+            margin-left: 55px;
+            width: 200px;
+            height: 200px;
+        }
+        #img9{
+            margin-top: 20px;
+            margin-left: 55px;
+            width: 200px;
+            height: 200px;
         }
         #imgmedia{            
             margin-top: 30px;  
@@ -250,18 +332,32 @@
 <img src="img/medias.PNG" alt="x" id="imgmedia"/>
 </a>
 
+
 <a href="/mensages">
 <img src="img/mensajes.PNG" alt="x" id="imgmess"/>
 </a>
-
 </div>
 
 
-<div id="divder">
+<div id="divderimg">
+
+<a href="/convuno">
 <img src="img/RyanNewman.PNG" alt="x" id="img1"/>
-<img src="img/RyanNewman.PNG" alt="x" id="img2"/>
-<img src="img/RyanNewman.PNG" alt="x" id="img3"/>
-<img src="img/RyanNewman.PNG" alt="x" id="img4"/>
+</a>
+
+<form action="{{ url("/contacto") }}" method="GET">
+<div>
+  <button id="btnred" type="button" class="btn btn-danger">Cambiar</button>
+  <button id="btnredd" type="button" class="btn btn-danger">Eliminar</button>
+</div>
+</form>
+
+
+
+</div>
+
+<div id="divdermess">
+
 </div>
 
 </body>
